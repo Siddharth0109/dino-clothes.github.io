@@ -1,0 +1,434 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: rgb(45, 56, 85);
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -279px;
+    padding-top: 7px;
+}
+
+.brand img{
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+
+.navitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-right: -30px;
+}
+
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    padding-bottom: 10px;
+    background-color: rgb(45, 56, 85);
+    margin-right: -36px;
+}
+
+.navlist li{
+    list-style: none;
+    margin-right: -4px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Julius Sans One';
+    padding-right: 27px;
+}
+
+.listitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: -25px;
+}
+
+.bar{
+    margin-top: -5px;
+    margin-right: 54px;
+}
+
+.search{
+    width: 190px;
+    height: 27px;
+    margin-top: -12px;
+    border-radius: 11px;
+    border: 2px solid white;
+    background: none;
+    margin-left: 68px;
+}
+
+.submit{
+    border: 2px solid white;
+    background: none;
+    height: 33px;
+    border-radius: 17px;
+    width: 59px;
+}
+/*Image resizing*/
+.slide img{
+  width: 360px;
+  height: 450px;
+}
+/* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    height: 450px;
+    width: 360px;
+    margin: 0 auto;
+  }
+    
+  /* Style each of the sides 
+  with a fixed width and height */
+  .slide {
+    float: left;
+    height: 450px;
+    width: 360px;
+  }
+    
+  /* Add animation to the slides */
+  .slide-wrapper {
+    /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(360px * 9);
+    
+    /* Specify the animation with the
+    duration and speed */
+    animation: slide 7s ease infinite;
+  }
+    
+  /* Set the background color
+  of each of the slides */
+  .slide:nth-child(1) {
+        width: 360px;
+        height: 450px;
+  }
+    
+  .slide:nth-child(2) {
+        width: 360px;
+        height: 450px;
+  }
+    
+  .slide:nth-child(3) {
+        width: 360px;
+        height: 450px;
+  }
+    
+  .slide:nth-child(4) {
+        width: 360px;
+        height: 450px;
+  }
+
+  .slide:nth-child(5) {
+        width: 360px;
+        height: 450px;
+  }
+
+  .slide:nth-child(6) {
+        width: 360px;
+        height: 450px;
+  }
+
+  .slide:nth-child(7) {
+        width: 360px;
+        height: 450px;
+  }
+
+.slide:nth-child(8) {
+        width: 360px;
+        height: 450px;
+  }
+
+.slide:nth-child(9) {
+        width: 360px;
+        height: 450px;
+  }
+    
+  /* Define the animation 
+  for the slideshow */
+  @keyframes slide {
+    /* Calculate the margin-left for 
+    each of the slides */
+    20% {
+      margin-left: 0px;
+    }
+    
+    40% {
+      margin-left: calc(-360px * 1);
+    }
+    
+    60% {
+      margin-left: calc(-360px * 2);
+    }
+    
+    80% {
+      margin-left: calc(-360px * 3);
+    }
+
+    100% {
+        margin-left: calc(-360px * 4);
+      }
+
+      120% {
+        margin-left: calc(-360px * 5);
+      }
+
+      140% {
+        margin-left: calc(-360px * 6);
+      }
+
+      160% {
+        margin-left: calc(-360px * 7);
+      }
+
+      180% {
+        margin-left: calc(-360px * 8);
+      }
+
+      200% {
+        margin-left: calc(-360px * 9);
+      }
+  }
+
+  /*Words*/
+
+  .pitch{
+    font-family:  'Dancing Script', cursive;
+    font-size: 25px;
+    padding: 9px;
+  }
+
+  .pitching{
+    border: 5px solid grey;
+    border-style: dotted dotted double double;
+    border-radius: 36px;
+  }
+  /*Second container*/
+
+  .SC{
+      font-family: 'Julius Sans One';
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .image1 img{
+      width: 340px;
+      height: 510px;
+      padding-left: 10px;
+  }
+
+  .image2 img{
+      width: 340px;
+      height: 453px;
+      padding-left: 10px;
+  }
+
+  .image3 img{
+      width: 340px;
+      height: 510px;
+      padding-left: 10px;
+  }
+
+  .image4 img{
+      width: 340px;
+      height: 510px;
+      padding-left: 10px;
+  }
+
+  .image5 img{
+      width: 340px;
+      height: 510px;
+      padding-left: 10px;
+  }
+
+  .image6 img{
+      width: 340px;
+      height: 511px;
+      padding-left: 10px;
+  }
+
+  .image7 img{
+      width: 340px;
+      height: 544px;
+      padding-left: 10px;
+  }
+
+  .image8 img{
+      width: 340px;
+      height: 505px;
+      padding-left: 10px;
+  }
+
+  .image9 img{
+      width: 340px;
+      height: 510px;
+      padding-left: 10px;
+  }
+
+  .image10 img{
+      width: 340px;
+      height: 408px;
+      padding-left: 10px;
+  }
+
+  .image11 img{
+      width: 340px;
+      height: 544px;
+      padding-left: 10px;
+  }
+
+  .image12 img{
+      width: 340px;
+      height: 510px;
+      padding-left: 10px;
+  }
+
+  .image13 img{
+      width: 340px;
+      height: 476px;
+      padding-left: 10px;
+  }
+
+  .image14 img{
+      width: 340px;
+      height: 763px;
+      padding-left: 10px;
+  }
+
+  .image15 img{
+      width: 340px;
+      height: 762px;
+      padding-left: 10px;
+  }
+
+  .image16 img{
+      width: 340px;
+      height: 723px;
+      padding-left: 10px;
+  }
+
+  .image17 img{
+      width: 340px;
+      height: 468px;
+      padding-left: 10px;
+  }
+
+  .image18 img{
+      width: 340px;
+      height: 468px;
+      padding-left: 10px;
+  }
+
+  .image19 img{
+      width: 340px;
+      height: 458px;
+      padding-left: 10px;
+  }
+
+  .image20 img{
+      width: 340px;
+      height: 417px;
+      padding-left: 10px;
+  }
+
+  .image21 img{
+      width: 340px;
+      height: 510px;
+      padding-left: 10px;
+  }
+
+  .image22 img{
+    width: 340px;
+    height: 503px;
+    padding-left: 10px;
+}
+
+.image23 img{
+  width: 340px;
+  height: 508px;
+  padding-left: 10px;
+}
+
+.image24 img{
+  width: 340px;
+  height: 565px;
+  padding-left: 10px;
+}
+
+.image25 img{
+  width: 340px;
+  height: 514px;
+  padding-left: 10px;
+}
+
+.image26 img{
+  width: 340px;
+  height: 510px;
+  padding-left: 10px;
+}
+
+.image27 img{
+  width: 340px;
+  height: 510px;
+  padding-left: 10px;
+}
+
+.footer{
+  background-color: rgb(59, 59, 59);
+  margin-top: 20px;
+}
+
+.footer-name{
+  font-family:  'Poiret One', cursive;
+  text-align: center;
+  color: white;
+  font-size: 44px;
+  padding-top: 25px;
+}
+
+.details{
+  font-family:  'Poiret One', cursive;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+.details1{
+  font-family:  'Poiret One', cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+.list{
+  font-family:  'Poiret One', cursive;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding-top: 25px;
+}
+.listeelement li{
+  list-style: none;
+}
+.listeelement li a{
+  text-decoration: none;
+  color: white;
+}
